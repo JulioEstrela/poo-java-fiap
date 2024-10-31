@@ -2,7 +2,7 @@ package aula02.br.com.fiap.banco.model;
 
 import java.util.Date;
 
-public class Conta {
+public abstract class Conta {
 	private long numeroConta;
 	private Cliente cliente;
 	private double saldo;
